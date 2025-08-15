@@ -68,8 +68,8 @@ ${translatedTafsirEnglish.text}`;
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: 'Queen_FAITH-MD-V5',
-                        newsletterName: 'Queen_FAITH-MD-V5',
+                        newsletterJid: 'Queen_FAITH-MD-v4',
+                        newsletterName: 'Queen_FAITH-MD-v4',
                         serverMessageId: 143
           }
         }
@@ -458,8 +458,8 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: 'Queen_FAITH-MD-V5',
-                        newsletterName: 'Queen_FAITH-MD-V5',
+                        newsletterJid: 'Queen_FAITH-MD-v4',
+                        newsletterName: 'Queen_FAITH-MD-v4',
                         serverMessageId: 143
                     }
                 }
@@ -468,7 +468,7 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
         );
 
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/criss-vevo/Queen_FAITH-MD-V-DATA/raw/refs/heads/main/autovoice/Quran.m4a' },
+            audio: { url: 'https://github.com/humphreymbise/Queen_FAITH-MD-v4DATA/raw/refs/heads/main/autovoice/Quran.m4a' },
             mimetype: 'audio/mp4',
             ptt: false
         }, { quoted: mek });
