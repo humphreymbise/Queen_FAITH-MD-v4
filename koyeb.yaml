@@ -1,6 +1,6 @@
-name: khan-md
+name: lastcard-md
 services:
-  - name: criss-ai-service
+  - name: lastcard-md-service
     type: web
     ports:
       - 5000
