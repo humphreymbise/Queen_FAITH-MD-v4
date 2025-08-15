@@ -1,4 +1,4 @@
-name: Queen_FAITH-MD-V-
+name: Queen_FAITH-MD-v4
 services:
   - name: lastcard-md-service
     type: web
