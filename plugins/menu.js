@@ -57,7 +57,7 @@ cmd({
         const sentMsg = await conn.sendMessage(
             from,
             {
-                image: { url: config.MENU_IMAGE_URL || 'https://res.cloudinary.com/dgy2dutjs/image/upload/v1751624587/url.crissvevo.co.tz/IMG_2353_fze42l.jpg' },
+                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/ca752n.jpeg' },
                 caption: menuCaption,
                 contextInfo: contextInfo
             },
@@ -66,7 +66,7 @@ cmd({
 
         // Send menu audio only once
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/humphreymbise/Queen_FAITH-MD DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
+            audio: { url: 'https://github.com/humphreymbise/Queen_FAITH-MD- DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
             mimetype: 'audio/mp4',
             ptt: true,       
         }, { quoted: mek });
@@ -238,7 +238,7 @@ cmd({
 ┃★│ • loli
 ┃★╰──────────────
 ┃★╭──────────────
-┃★│ 🎭 *Characters*
+┃★│ ❣️ *Characters❣️*
 ┃★│ • animegirl
 ┃★│ • animegirl1-5
 ┃★│ • anime1-5
@@ -271,7 +271,7 @@ cmd({
 > ${config.DESCRIPTION}`
             },
             '8': {
-                title: "📌 *Other Menu* 📌",
+                title: "🔝 *Other Menu* 🤪",
                 content: `╭━━━〔 *Other Menu* 〕━━━┈⊷
 ┃★╭──────────────
 ┃★│ 🕒 *Utilities*
@@ -311,7 +311,7 @@ cmd({
 ┃★│ • pat @user
 ┃★╰──────────────
 ┃★╭──────────────
-┃★│ 😂 *Funny*
+┃★│ 🎼 *Funny*
 ┃★│ • bully @user
 ┃★│ • bonk @user
 ┃★│ • yeet @user
@@ -319,7 +319,7 @@ cmd({
 ┃★│ • kill @user
 ┃★╰──────────────
 ┃★╭──────────────
-┃★│ 😊 *Expressions*
+┃★│ 🥰 *Expressions*
 ┃★│ • blush @user
 ┃★│ • smile @user
 ┃★│ • happy @user
@@ -330,10 +330,10 @@ cmd({
 > ${config.DESCRIPTION}`
             },
             '10': {
-                title: "🏠 *Main Menu* 🏠",
+                title: "👇*Main Menu* 👇",
                 content: `╭━━━〔 *Main Menu* 〕━━━┈⊷
 ┃★╭──────────────
-┃★│ ℹ️ *Bot Info*
+┃★│ 🏛️ *Bot Info🧐*
 ┃★│ • ping
 ┃★│ • live
 ┃★│ • alive
@@ -343,7 +343,7 @@ cmd({
 ┃★│ • owner
 ┃★╰──────────────
 ┃★╭──────────────
-┃★│ 🛠️ *Controls*
+┃★│ ❤️*Controls❤️*
 ┃★│ • menu
 ┃★│ • menu2
 ┃★│ • restart
@@ -375,7 +375,7 @@ cmd({
                     await conn.sendMessage(
                         senderID,
                         {
-                            image: { url: config.MENU_IMAGE_URL || 'https://res.cloudinary.com/dgy2dutjs/image/upload/v1751624587/url.crissvevo.co.tz/IMG_2353_fze42l.jpg' },
+                            image: { url: config.MENU_IMAGE_URL ||'https://files.catbox.moe/ca752n.jpeg' },
                             caption: selectedMenu.content,
                             contextInfo: contextInfo
                         },
