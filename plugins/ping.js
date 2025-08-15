@@ -32,7 +32,7 @@ async (conn, mek, m, { from, quoted, sender, reply, }) => {
         const end = new Date().getTime();
         const responseTime = (end - start) / 1000;
 
-        const text = `> *Queen_FAITH-MD V5 MDSPEED: ${responseTime.toFixed(2)}ms ${reactionEmoji}*`;
+        const text = `> *Queen_FAITH-MD-v4 MDSPEED: ${responseTime.toFixed(2)}ms ${reactionEmoji}*`;
 
         await conn.sendMessage(from, {
             text,
@@ -42,7 +42,7 @@ async (conn, mek, m, { from, quoted, sender, reply, }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '',
-                    newsletterName: "Queen_FAITH-MD V5",
+                    newsletterName: "Queen_FAITH-MD-v4",
                     serverMessageId: 143
                 }
             }
@@ -69,7 +69,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const message = await conn.sendMessage(from, { text: '*PINGING...*' })
         const endTime = Date.now()
         const ping = endTime - startTime
-        await conn.sendMessage(from, { text: `*🔥 Queen_FAITH-MD V5 SPEED : ${ping}ms*` }, { quoted: message })
+        await conn.sendMessage(from, { text: `*🔥 Queen_FAITH-MD-v4 SPEED : ${ping}ms*` }, { quoted: message })
     } catch (e) {
         console.log(e)
         reply(`${e}`)
