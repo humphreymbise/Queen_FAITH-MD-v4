@@ -27,7 +27,7 @@ cmd({
     }
 
     // Fetch latest version data from GitHub
-    const rawVersionUrl = 'https://github.com//humphreymbise/Queen_FAITH-MD-V-/main/data/version.json';
+    const rawVersionUrl = 'https://github.com//humphreymbise/Queen_FAITH-MD-v4/main/data/version.json';
     let latestVersion = 'Unknown';
     let latestChangelog = 'No changelog available.';
     try {
@@ -56,9 +56,9 @@ cmd({
     const githubRepo = 'https://github.com//humphreymbise/Queen_FAITH-MD-v4';
 
     // Check update status
-    let updateMessage = `✅ Your Queen_FAITH-MD-v4bot is up-to-date!`;
+    let updateMessage = `✅ Your Queen_FAITH-MD-v4 bot is up-to-date!`;
     if (localVersion !== latestVersion) {
-      updateMessage = `🚀 Your Queen_FAITH-MD-v4bot is outdated!
+      updateMessage = `🚀 Your Queen_FAITH-MD-v4 bot is outdated!
 🔹 *Current Version:* ${localVersion}
 🔹 *Latest Version:* ${latestVersion}
 
