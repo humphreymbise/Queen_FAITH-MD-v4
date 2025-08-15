@@ -6,7 +6,7 @@ cmd({
     alias: ["listcmd","commands"],
     desc: "menu the bot",
     category: "menu",
-    react: "⚡",
+    react: "🤪",
     filename: __filename
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -304,8 +304,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '',
-                        newsletterName: 'Queen_FAITH-MD-V5',
+                        newsletterJid: '❤️Queen_FAITH-MD-v4❣️,
+                        newsletterName: '❣️Queen_FAITH-MD-v4❣️',
                         serverMessageId: 143
                     }
                 }
@@ -315,7 +315,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/humphreymbise/Queen_FAITH-MD-V-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
+            audio: { url: 'https://github.com/humphreymbise/Queen_FAITH-MD-v4DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
