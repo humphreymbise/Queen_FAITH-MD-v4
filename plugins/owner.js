@@ -29,7 +29,7 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://res.cloudinary.com/dgy2dutjs/image/upload/v1751624587/url.crissvevo.co.tz/IMG_2353_fze42l.jpg' }, // Image URL from your request
+            image: { url: 'https://files.catbox.moe/ca752n.jpeg' }, // Image URL from your request
             caption: `╭━━〔 *Queen_FAITH-MD V⁵* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
