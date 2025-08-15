@@ -49,3 +49,7 @@
 <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=⚡+CRISS+AI;🔥+The+Most+Powerful+WhatsApp+Bot;💻+Crafted+by+Criss+Vevo;🚀+Next-Gen+Ai+Technology;🌈+Fast+⚡+Secure+🔒+Reliable+✅" alt="Typing Animation">
 </h1>
+
+<a 
+href="https://dashboard.heroku.com/new?template=https://github.com/humphreymbise/LASTCARD-MD"><img title="DEPLOY-ON HEROKU" src="https://img.shields.io/badge/DEPLOY-ON HEROKU-h?color=blue&style=for-the-badge&logo=nike" width="220" height="38.45"/></a></p>
+________________
