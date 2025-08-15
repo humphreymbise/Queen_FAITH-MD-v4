@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: CRISS-AI
+    name: LASTCARD-MD
     env: node
     plan: free
-    repo: https://github.com/criss-vevo/CRISS-AI
+    repo: https://github.com/humphreymbise/LASTCARD-MD
     branch: main
     buildCommand: npm install
     startCommand: npm start
