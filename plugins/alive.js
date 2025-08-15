@@ -35,8 +35,8 @@ async (conn, mek, m, { from, sender, reply }) => {
                 forwardingScore: 1000,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: 'Queen_FAITH-MD-V5',
-                    newsletterName: 'Queen_FAITH-MD-V5',
+                    newsletterJid: 'Queen_FAITH-MD-v4',
+                    newsletterName: 'Queen_FAITH-MD-v4',
                     serverMessageId: 143
                 }
             }
