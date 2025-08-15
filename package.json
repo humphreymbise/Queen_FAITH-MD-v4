@@ -5,7 +5,7 @@
   "description": "A WhatsApp Bot Created By zezetech",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Queen_FAITH-MD-V-",
+    "start": "pm2 start index.js --deep-monitoring --attach --name Queen_FAITH-MD-v4",
     "stop": "pm2 stop Queen_FAITH-MD-v4",
     "restart": "pm2 restart Queen_FAITH-MD-v4"
   },
