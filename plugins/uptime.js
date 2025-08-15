@@ -119,8 +119,8 @@ ${config.DESCRIPTION}`;
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: 'Queen_FAITH-MD-V5',
-                    newsletterName: config.OWNER_NAME || 'Queen_FAITH-MD-V5 SUPPORT',
+                    newsletterJid: 'Queen_FAITH-MD-v4',
+                    newsletterName: config.OWNER_NAME || 'Queen_FAITH-MD-v4 SUPPORT',
                     serverMessageId: 143
                 }
             }
