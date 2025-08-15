@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: Queen_FAITH-MD-
+    name: Queen_FAITH-MDv4
     env: node
     plan: free
-    repo: https://github.com/humphreymbise/Queen_FAITH-MD-V-
+    repo: https://github.com/humphreymbise/Queen_FAITH-MD-v4
     branch: main
     buildCommand: npm install
     startCommand: npm start
