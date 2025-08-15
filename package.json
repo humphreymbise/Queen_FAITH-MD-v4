@@ -5,9 +5,9 @@
   "description": "A WhatsApp Bot Created By zezetech",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name LASTCARD-MD",
-    "stop": "pm2 stop LASTCARD-MD",
-    "restart": "pm2 restart LASTCARD-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name Queen_FAITH-MD-V-",
+    "stop": "pm2 stop Queen_FAITH-MD-V-",
+    "restart": "pm2 restart Queen_FAITH-MD-V-"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.18",
