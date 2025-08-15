@@ -1,6 +1,6 @@
 name: Queen_FAITH-MD-v4
 services:
-  - name: lastcard-md-service
+  - name: zeze-md-service
     type: web
     ports:
       - 5000
